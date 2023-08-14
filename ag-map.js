@@ -4,7 +4,7 @@
                 {
                     center: [51.79711, -0.3228],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 15,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -78,8 +78,8 @@
     
             var layer_control_d78f703df28b33e5037e11987159073a = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_a53cad7b9899458b70943def4d5696e8,
                     "Mapbox Satellite Streets" : tile_layer_17973779838e6e4424e74be4626a60d7,
+                    "openstreetmap" : tile_layer_a53cad7b9899458b70943def4d5696e8,
                 },
                 overlays :  {
                     "Field Boundaries" : geo_json_9c36a7630de8b3bf1a0f592956aab40e,
