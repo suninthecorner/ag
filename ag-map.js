@@ -29,7 +29,7 @@
         function geo_json_9c36a7630de8b3bf1a0f592956aab40e_styler(feature) {
             switch(feature.id) {
                 default:
-                    return {"color": "#44CD7D", "fillColor": "#44CD7D", "fillOpacity": 0.5, "weight": 1};
+                    return {"color": "#000000", "fillColor": "#44CD7D", "fillOpacity": 0.5, "weight": 2};
             }
         }
 
