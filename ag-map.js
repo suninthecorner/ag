@@ -4,7 +4,7 @@
                 {
                     center: [51.79711, -0.3228],
                     crs: L.CRS.EPSG3857,
-                    zoom: 17,
+                    zoom: 15,
                     zoomControl: true,
                     preferCanvas: false,
                 }
