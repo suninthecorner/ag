@@ -10,7 +10,6 @@
                 }
             );
 
-            
 
              var tile_layer_17973779838e6e4424e74be4626a60d7 = L.tileLayer(
                 "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZXNrYW5kYXJpbmltYSIsImEiOiJjbGtrNXJnb2QwNGxyM2RxazVkMGxyOHZmIn0.FZGKcAfZSxueZyZcPl1V2A",
