@@ -10,18 +10,17 @@
                 }
             );
 
+            var tile_layer_a53cad7b9899458b70943def4d5696e8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_282e637f7b79ea2f336cb92dff3454ff);
 
              var tile_layer_17973779838e6e4424e74be4626a60d7 = L.tileLayer(
                 "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZXNrYW5kYXJpbmltYSIsImEiOiJjbGtrNXJnb2QwNGxyM2RxazVkMGxyOHZmIn0.FZGKcAfZSxueZyZcPl1V2A",
                 {"attribution": "Mapbox", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             ).addTo(map_282e637f7b79ea2f336cb92dff3454ff);
-    
-            var tile_layer_a53cad7b9899458b70943def4d5696e8 = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_282e637f7b79ea2f336cb92dff3454ff);
+
         
-    
     
         function geo_json_9c36a7630de8b3bf1a0f592956aab40e_styler(feature) {
             switch(feature.id) {
